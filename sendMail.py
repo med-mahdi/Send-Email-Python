@@ -6,11 +6,11 @@ import smtplib
 
 #> Define The Function That Will Send The Email For Us
 def sendingMail():
-    email_sender = "mehdihyad.mh@gmail.com"
+    email_sender = "youremail@gmail.com"
     email_password = "f a e h l s u h l m h y v b a x"
-    email_receiver = 'mehdihyad.design@gmail.com'
-    subject = "Hello sir How are you Doing !"
-    body = "hey there man, you are great"
+    email_receiver = 'example@gmail.com'
+    subject = "Hello sir, How are you Doing !"
+    body = "This is a test Body Message."
     
     emailMessage = EmailMessage()
     emailMessage['From'] = email_sender
