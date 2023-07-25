@@ -7,7 +7,8 @@ import smtplib
 #> Define The Function That Will Send The Email For Us
 def sendingMail():
     email_sender = "youremail@gmail.com"
-    email_password = "f a e h l s u h l m h y v b a x"
+    # set the email_password to the password you generated from google Accounts, in the Security section 
+    email_password = "app password"
     email_receiver = 'example@gmail.com'
     subject = "Hello sir, How are you Doing !"
     body = "This is a test Body Message."
